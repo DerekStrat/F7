@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Warning Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="F6.js"></script>
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .warning-container {
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 20px;
+      border: 1px solid #ced4da;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="warning-container">
+      <h1 class="text-center text-danger">Warning!</h1>
+      <p class="text-center">You are about to delete all contents of the table.</p>
+      <p class="text-center">Are you sure you want to continue?</p>
+      <div class="text-center">
+        <a href="home_page.html" onclick="deleteAll()" class="btn btn-danger">Yes</a>
+        <a href="home_page.html" class="btn btn-danger">No</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
